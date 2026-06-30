@@ -1,0 +1,3 @@
+root ::= "{" ws "\"severe_bleeding\"" ws ":" ws boolean "," ws "\"unconscious\"" ws ":" ws boolean "," ws "\"breathing_difficulty\"" ws ":" ws boolean "}"
+boolean ::= "true" | "false"
+ws ::= [ ]*
